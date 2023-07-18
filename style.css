@@ -86,7 +86,7 @@ nav li a {
 }
 
 .banner-img {
-  border: 5px dotted #02a86b;
+  border: 5px solid #02a86b;
   border-radius: 100%;
   padding: 10px;
 }
@@ -156,6 +156,10 @@ sponsor section */
   color: rgba(118, 118, 118, 0.87);
   font-size: 14px;
   font-weight: normal;
+}
+
+.see-more-tag{
+  display: flex;
 }
 
 .see-more {
@@ -241,7 +245,7 @@ footer {
   font-size: 30px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-evenly ;
   width: 15%;
   margin: 10px auto;
 }
@@ -249,7 +253,77 @@ footer {
 /* responsive styles for small device */
 
 @media screen and (max-width: 576px) {
+
+.logo{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: -20px;
+}
+
+  header{
+    text-align: center;
+    padding: 50px 15px;
+  }
+
+nav ul{
+  display: none;
+}
+
+.banner,
+nav,
+.see-more-tag,
+.sponsor-gallery,
+.featured-content{
+  flex-direction: column;
+}
+
+.banner h1{
+  width: 100%;
+}
+
+.banner p{
+  width: 100%;
+  margin: 20px 0px;
+}
+
+.sponsor-gallery{
+  row-gap: 20px;
+}
+
+.collection-container {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.collection-header-title{
+  margin-top: 100px;
+}
+
+.banner-img{
+  margin-top: 40px;
+}
+
+.banner-img img{
+  width: 100%;
+}
+
+.featured-section{
+  margin-top: 60px;
+}
+
+.featured-text{
+text-align: center;
+  margin-top: 40px;
+  width: 100%;
+}
   .featured-img {
     width: 100%;
   }
+
+.see-more{
+  text-align: center;
+}
+
+.footer-icon{
+gap: 10px;
+}
 }
