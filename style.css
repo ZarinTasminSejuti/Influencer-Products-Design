@@ -49,7 +49,6 @@ nav li a {
   margin-right: 35px;
 }
 
-
 /* banner section styles */
 .banner {
   margin-top: 80px;
@@ -66,7 +65,7 @@ nav li a {
 
 .banner h1,
 .banner p {
-  width: 60%;
+  width: 70%;
 }
 
 .banner p {
@@ -204,16 +203,16 @@ sponsor section */
 .featured-number {
   background-color: #02a86b;
   color: #fff;
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
   font-size: 30px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: -10%;
-  left: 80%;
+  top: -15%;
+  left: 75%;
 }
 
 /* footer section styles */
@@ -233,6 +232,18 @@ footer {
   color: #d9dbe1;
   font-size: 14px;
   font-weight: 700;
+}
+
+.footer-icon {
+  /* margin-left: 100px; */
+
+  color: #ffffff;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 15%;
+  margin: 10px auto;
 }
 
 /* responsive styles for small device */
