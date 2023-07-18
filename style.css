@@ -160,6 +160,7 @@ sponsor section */
 
 .see-more-tag{
   display: flex;
+  justify-content: right;
 }
 
 .see-more {
@@ -318,6 +319,11 @@ text-align: center;
   .featured-img {
     width: 100%;
   }
+
+.featured-number {
+  top: -15%;
+  left: 70%;
+}
 
 .see-more{
   text-align: center;
